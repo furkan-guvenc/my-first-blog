@@ -5,6 +5,15 @@
     <title>Title</title>
 </head>
 <body>
-    <p>Hebe</p>
+    <p>DELOO</p>
+    <div>
+        {% for post in posts %}
+            <p>{{ post }} yayinlanma tarihi: {{ post.yayinlanma_tarihi }}</p>
+        {% endfor %}
+    <p>önce</p>
+    <p>{{ posts}}</p>
+    <p>sonra</p>
+    </div>
+
 </body>
 </html>
