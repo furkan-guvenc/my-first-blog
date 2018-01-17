@@ -1,0 +1,20 @@
+body {
+    margin-left: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff7c10;
+}
+
+h2{
+    color: #5b70ff;
+}
+
+.post{
+    margin-top: 45px;
+    margin-bottom: 20px;
+    border-top: #b3fdff solid 2px;
+    border-bottom: #b3fdff solid 2px;
+    background-color: #e5e5e5;
+}
